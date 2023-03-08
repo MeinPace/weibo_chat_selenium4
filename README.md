@@ -22,11 +22,11 @@ python weibo_chat.py
 在弹出的浏览器中扫码登录微博，页面会自动跳转到私信聊天页面，默认获取最顶部的对话。
 
 
-##2023Mar 更新
+## 2023Mar 更新
 # 将selenium 3相关语法升级为 selenium 4适用；
-# 加入随机时间的
+加入随机时间的
 pause=random.random()*20,
 time.sleep(pause)以应对防爬虫,阿拉伯数字可自行调整；
-# 最末模块 .get(url, headers=HEADER,verify=False) 添加verify=False解决GL is disabled报错信息；
-# 微博不存储三年以上的多媒体文件（图片、视频、音频），因此在备份三年（按月计算）以上的对话时请使用_text_only.py
-# 运行时请关闭VPN
+最末模块 .get(url, headers=HEADER,verify=False) 添加verify=False解决GL is disabled报错信息；
+微博不存储三年以上的多媒体文件（图片、视频、音频），因此在备份三年（按月计算）以上的对话时请使用_text_only.py
+## 运行时请关闭VPN
